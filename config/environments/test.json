@@ -1,26 +1,16 @@
 ﻿{
     "app": {
-        "port": 3000
+        "port": 8080,
+        "domain": "localhost"
     },
-    "db": {
-        "dialect": "postgres",
-        "host": "localhost",
-        "port": 5432,
-        "dialect": "postgres",
-        "database": "auth_development",
-        "username": "yosriady",
-        "password": ""
-    },
-    "key_service": {
-        "host": "localhost",
-        "port": 6379,
-        "key_namespace": "auth:",
-        "key_separator": ":",
-        "expires_seconds": 6000
+    "api": {
+        "username": "rahul",
+        "password": "srivastava"
     },
     "jwt": {
-        "secret": "placeholder-secretKey",
-        "algorithm": "HS256",
-        "secret_separator": ":"
+        "secret": "apiMovies"
+    },
+    "mongo": {
+        "database": "mongodb://admin:admin@ds161640.mlab.com:61640/moviesdb"
     }
 }
