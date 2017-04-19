@@ -1,1 +1,2 @@
-# movies-nodejs-express-swagger-api
+# node-api-boilerplate
+Standard nodjs API boilerplate

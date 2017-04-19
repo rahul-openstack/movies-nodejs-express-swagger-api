@@ -1,0 +1,16 @@
+﻿{
+    "app": {
+        "port": 8080,
+        "domain": "localhost"
+    },
+    "api": {
+        "username": "rahul",
+        "password": "srivastava"
+    },
+    "jwt": {
+        "secret": "apiMovies"
+    },
+    "mongo": {
+        "database": "mongodb://admin:admin@ds161640.mlab.com:61640/moviesdb"
+    }
+}
