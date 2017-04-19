@@ -36,8 +36,10 @@ var start =  function(cb) {
 
 // =======================
 // start the server ======
-// =======================
-  app.listen(config.get('NODE_PORT'));
+    // =======================
+  var port = process.env.PORT || config.get('NODE_PORT');
+  console.log(port);
+  app.listen(port);
   logger.info('[SERVER] Listening on port ' + config.get('NODE_PORT'));
   
   if (cb) {
