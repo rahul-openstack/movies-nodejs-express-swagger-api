@@ -22,7 +22,7 @@ var swaggerDefinition = {
         version: '1.0.0',
         description: 'APIs exposed for the Platform : Movies Project',
     },
-    host: 'https://heroku-node-movies-api.herokuapp.com',
+    host: 'heroku-node-movies-api.herokuapp.com',
     basePath: '/'
 };
 
