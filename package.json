@@ -1,5 +1,5 @@
 {
-  "name": "Movies Restful API",
+  "name": "Movies-Restful-API",
   "version": "1.0.0",
   "description": "Restful APIs to service requests coming from a spa application",
   "main": "app.js",
