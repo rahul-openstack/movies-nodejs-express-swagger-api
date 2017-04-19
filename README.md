@@ -1,4 +1,4 @@
-# Movies-App API Project, Node, Express, Swagger and Mongo  [![MIT license](http://img.shields.io/badge/license-MIT-lightgrey.svg)](http://opensource.org/licenses/MIT)
+# Movies-App API Project, Node, Express, Swagger and Mongo 
 
 
 This project uses the [MEAN stack](https://en.wikipedia.org/wiki/MEAN_(software_bundle)):
@@ -25,7 +25,7 @@ This project uses the [MEAN stack](https://en.wikipedia.org/wiki/MEAN_(software_
 
 4. In order to test APIs using Swagger, you need to first generate access-token using the endpoint:
 	https://heroku-node-movies-api.herokuapp.com/api-docs/index.html#!/API_Authentication/post_api_authenticate
-	Here you ned to pass the following json : 
+	Here you need to pass the following json : 
 	{
 	  "name": "rahul",
 	  "password": "srivastava"
