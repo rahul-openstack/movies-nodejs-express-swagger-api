@@ -22,7 +22,7 @@ var swaggerDefinition = {
         version: '1.0.0',
         description: 'APIs exposed for the Platform : Movies Project',
     },
-    host: config.get('app:domain') + ':' + config.get('NODE_PORT'),
+    host: config.get('app:domain') + ':' + config.get('app:port'),
     basePath: '/'
 };
 
@@ -72,7 +72,7 @@ module.exports = function(app) {
     // basic route
 
       app.get('/', function (req, res) {
-          res.send('Hello! The API is at http://localhost:' + config.get('NODE_PORT') + '/api');
+          res.send('Hello! The API is at http://localhost:' + config.get('app:port') + '/api');
       });
 
       app.get('/setup', function (req, res) {
