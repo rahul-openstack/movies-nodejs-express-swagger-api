@@ -104,7 +104,7 @@ var getMoviesByDirector = function (directorId) {
 }
 
 var createMovieDirector = function (movieId, directorId) {
-    var movieDirector = new Movieactor({ movie_id: movieId, director_id: directorId });
+    var movieDirector = new Moviedirector({ movie_id: movieId, director_id: directorId });
     return movieDirector.save(function (err) {
         if (err) {
             console.log("Something wrong when creating movie-director association.");
